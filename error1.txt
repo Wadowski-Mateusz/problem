@@ -1,0 +1,97 @@
+> Task :wrapper
+BUILD SUCCESSFUL in 812ms
+1 actionable task: 1 executed
+> Task :Cinema_Room_REST_Service__Kotlin_-task:compileKotlin UP-TO-DATE
+> Task :Cinema_Room_REST_Service__Kotlin_-task:compileJava NO-SOURCE
+> Task :Cinema_Room_REST_Service__Kotlin_-task:processResources UP-TO-DATE
+> Task :Cinema_Room_REST_Service__Kotlin_-task:classes UP-TO-DATE
+> Task :util:compileKotlin NO-SOURCE
+> Task :util:compileJava NO-SOURCE
+> Task :util:processResources NO-SOURCE
+> Task :util:classes UP-TO-DATE
+> Task :util:compileTestKotlin NO-SOURCE
+> Task :util:compileTestJava NO-SOURCE
+> Task :util:processTestResources NO-SOURCE
+> Task :util:testClasses UP-TO-DATE
+> Task :Cinema_Room_REST_Service__Kotlin_-task:compileTestKotlin UP-TO-DATE
+> Task :Cinema_Room_REST_Service__Kotlin_-task:compileTestJava UP-TO-DATE
+> Task :Cinema_Room_REST_Service__Kotlin_-task:processTestResources NO-SOURCE
+> Task :Cinema_Room_REST_Service__Kotlin_-task:testClasses UP-TO-DATE
+> Task :Cinema_Room_REST_Service__Kotlin_-task:test FAILED
+
+Start test 1
+
+Error in test #1
+
+No class found with annotation org.springframework.boot.autoconfigure.SpringBootApplication
+java.lang.AssertionError: Error in test #1
+
+No class found with annotation org.springframework.boot.autoconfigure.SpringBootApplication
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.hyperskill.hstest.stage.StageTest.start(StageTest.java:203)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+
+
+WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by org.hyperskill.hstest.dynamic.SystemHandler (file:/C:/Users/x/.gradle/caches/modules-2/files-2.1/com.github.hyperskill/hs-test/release-SNAPSHOT/39580a2649085a45df136994ffb1ebb683e7bd30/hs-test-release-SNAPSHOT.jar)
+WARNING: Please consider reporting this to the maintainers of org.hyperskill.hstest.dynamic.SystemHandler
+WARNING: System::setSecurityManager will be removed in a future release
+
+CinemaTests > start FAILED
+    java.lang.AssertionError at Assert.java:89
+1 test completed, 1 failed
+FAILURE: Build failed with an exception.
+* What went wrong:
+Execution failed for task ':Cinema_Room_REST_Service__Kotlin_-task:test'.
+> There were failing tests. See the report at: file:///C:/Users/x/Desktop/kotlin/Cinema%20Room%20REST%20Service%20(Kotlin)/Cinema%20Room%20REST%20Service%20(Kotlin)/task/build/reports/tests/test/index.html
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+* Get more help at https://help.gradle.org
+BUILD FAILED in 2s
+5 actionable tasks: 1 executed, 4 up-to-date
+
